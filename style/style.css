@@ -202,6 +202,26 @@ body .section-main .section-content .btn-left .btn-dashboard:hover {
   margin-top: 40px;
 }
 
+.text-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fade1 {
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+  background: linear-gradient(98.73deg, #611D8D 35.75%, #2F7EC1 73.26%);
+  border-radius: 30px;
+}
+
+.fade2 {
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+  background: linear-gradient(99.56deg, #FAFF00 35.82%, #29ABE2 64.75%, rgba(255, 255, 255, 0.7) 91.33%);
+  border-radius: 30px;
+}
+
 .stock-transactions2 {
   display: flex;
   flex-direction: row;
