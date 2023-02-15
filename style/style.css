@@ -11,6 +11,7 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  text-decoration: none;
 }
 .Logout p {
   font-family: "Inter", sans-serif;
@@ -27,6 +28,77 @@ body {
   background-color: black;
   display: flex;
   flex-direction: column;
+}
+body .stock-middle {
+  width: 950px;
+}
+body .stock-middle .stock-transactions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body .stock-middle .stock-transactions .stock-text-transactions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+}
+body .stock-middle .stock-graph {
+  margin-top: 20px;
+}
+body .stock-middle .stock-graph .graph {
+  background-color: #303541;
+  border-radius: 30px;
+  width: 100%;
+  height: 450px;
+}
+body .stock-balance {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+body .stock-balance .stock-directions {
+  margin-left: 60px;
+  align-items: center;
+  background-color: #292727;
+  border-radius: 17px;
+  padding: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+body .stock-balance .stock-directions .SPECIAL {
+  background-color: black;
+  border-radius: 17px;
+  padding: 5px;
+}
+body .stock-balance .stock-directions a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+body .stock-balance .stock-interbalance {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+body .stock-balance .stock-interbalance p {
+  font-family: "Poppins", sans-serif;
+}
+body .stock-balance .btc-stock {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+body .stock-balance .btc-stock p {
+  font-size: 29px;
+}
+body .stock-balance .Text-balance1 {
+  font-family: "Poppins", sans-serif;
 }
 body .section-main {
   display: flex;
@@ -68,11 +140,13 @@ body .section-main nav .stock-searchbar img {
 body .section-main .section-content {
   display: flex;
   flex-direction: row;
+  margin-top: 35px;
+  gap: 30px;
 }
 body .section-main .section-content .btn-left {
   width: 253px;
   margin-left: 85px;
-  margin-top: 120px;
+  margin-top: 70px;
 }
 body .section-main .section-content .btn-left .stock-dashboard {
   display: flex;
@@ -86,6 +160,7 @@ body .section-main .section-content .btn-left .left-icon {
   display: flex;
   flex-direction: row;
   gap: 5px;
+  text-decoration: none;
 }
 body .section-main .section-content .btn-left .left-icon p {
   font-family: "Poppins", sans-serif;
@@ -110,6 +185,84 @@ body .section-main .section-content .btn-left .btn-dashboard p {
 }
 body .section-main .section-content .btn-left .btn-dashboard:hover {
   cursor: pointer;
+}
+
+.flex-transactions {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.recent-transactions2 h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.stock-assets {
+  margin-top: 40px;
+}
+
+.stock-transactions2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+  font-family: "Inter", sans-serif;
+}
+.stock-transactions2 .width-box {
+  width: 90px;
+}
+.stock-transactions2 img {
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+.stock-transactions2 .blue {
+  color: blue;
+}
+.stock-transactions2 .green {
+  color: green;
+}
+.stock-transactions2 .red {
+  color: red;
+}
+.stock-transactions2 .purple {
+  color: purple;
+}
+
+.stock-crypto {
+  height: 70px;
+  align-items: center;
+  background-color: #20232B;
+  opacity: 70%;
+  padding: 10px;
+  backdrop-filter: blur(8px);
+  border-radius: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Inter", sans-serif;
+}
+.stock-crypto .btn-trade {
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  padding: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-family: "Inter", sans-serif;
+}
+.stock-crypto .blue {
+  color: blue;
+}
+.stock-crypto .green {
+  color: green;
+}
+.stock-crypto .red {
+  color: red;
+}
+.stock-crypto .purple {
+  color: purple;
 }
 
 nav {
