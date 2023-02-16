@@ -149,3 +149,16 @@ arrows.addEventListener("click",()=>{
         txt1.innerHTML='BTC'
     }
 })
+
+
+
+///Responsive 
+
+let btnleft = document.querySelector(".btn-dashboard")
+let stockdashboard = document.querySelector(".stock-dashboard")
+let text = document.querySelector(".text-btn-dash")
+
+btnleft.addEventListener("click",()=>{
+    stockdashboard.classList.toggle("burger")
+    text.classList.toggle("show")
+})

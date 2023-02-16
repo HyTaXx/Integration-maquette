@@ -209,7 +209,6 @@ body .section-main .section-content {
   gap: 30px;
 }
 body .section-main .section-content .btn-left {
-  width: 253px;
   margin-left: 85px;
 }
 body .section-main .section-content .btn-left .stock-dashboard {
@@ -250,6 +249,9 @@ body .section-main .section-content .btn-left .btn-dashboard p {
   font-size: 25px;
   color: black;
 }
+body .section-main .section-content .btn-left .btn-dashboard .show {
+  display: block !important;
+}
 body .section-main .section-content .btn-left .btn-dashboard:hover {
   cursor: pointer;
 }
@@ -262,7 +264,6 @@ body .section-main .section-content .btn-left .btn-dashboard:hover {
 }
 
 .recent-transactions2 {
-  min-width: 380px;
   padding-right: 40px;
 }
 .recent-transactions2 h2 {
@@ -414,6 +415,31 @@ nav {
 
 .black {
   color: black;
+}
+
+@media screen and (max-width: 1500px) {
+  .Logout {
+    bottom: 10px;
+    left: 10px;
+  }
+  body .section-main .section-content #logo-main {
+    width: 100px;
+  }
+  body .section-main .section-content .btn-left {
+    margin-left: 20px;
+  }
+  body .section-main .section-content .btn-left .btn-dashboard {
+    width: auto;
+  }
+  body .section-main .section-content .btn-left .btn-dashboard .text-btn-dash {
+    display: none;
+  }
+  body .section-main .section-content .btn-left .stock-dashboard {
+    display: none;
+  }
+  body .section-main .section-content .btn-left .burger {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
