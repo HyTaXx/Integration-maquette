@@ -3,6 +3,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+#arrow-swap:hover {
+  cursor: pointer;
+}
+
 .Logout {
   position: absolute;
   bottom: -70px;
@@ -53,6 +57,9 @@ body .stock-middle .stock-transactions .stock-text-transactions {
   margin-top: 30px;
   font-family: "Poppins", sans-serif;
 }
+body .stock-middle .stock-transactions .stock-text-transactions a {
+  text-decoration: none;
+}
 body .stock-middle .stock-graph {
   margin-top: 20px;
 }
@@ -91,6 +98,9 @@ body .stock-middle .stock-graph .graph .stock-nav-graph .stock-money .stock-btc 
   flex-direction: row;
   justify-content: space-between;
 }
+body .stock-middle .stock-graph .graph .stock-nav-graph .stock-money .stock-btc:hover {
+  cursor: pointer;
+}
 body .stock-middle .stock-graph .graph .stock-nav-graph .stock-money .stock-eth {
   align-items: center;
   background-color: black;
@@ -101,6 +111,9 @@ body .stock-middle .stock-graph .graph .stock-nav-graph .stock-money .stock-eth 
   padding-right: 10px;
   flex-direction: row;
   justify-content: space-between;
+}
+body .stock-middle .stock-graph .graph .stock-nav-graph .stock-money .stock-eth:hover {
+  cursor: pointer;
 }
 body .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph {
   display: flex;
@@ -116,7 +129,8 @@ body .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph butt
   font-family: "Poppins", sans-serif;
   border: 0;
 }
-body .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph button:active {
+body .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph button:hover {
+  cursor: pointer;
   background-color: white;
   color: black;
 }
@@ -138,6 +152,10 @@ body .stock-balance .stock-directions {
   flex-direction: row;
   gap: 35px;
 }
+body .stock-balance .stock-directions a {
+  border-radius: 7px;
+  padding: 2px;
+}
 body .stock-balance .stock-directions .SPECIAL {
   background-color: black;
   border-radius: 17px;
@@ -146,6 +164,9 @@ body .stock-balance .stock-directions .SPECIAL {
 body .stock-balance .stock-directions a {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
+}
+body .stock-balance .stock-directions a:hover {
+  background-color: black;
 }
 body .stock-balance .stock-interbalance {
   display: flex;
@@ -339,6 +360,9 @@ body .section-main .section-content .btn-left .btn-dashboard:hover {
   padding-left: 14px;
   padding-right: 14px;
   font-family: "Inter", sans-serif;
+}
+.stock-crypto .btn-trade:hover {
+  cursor: pointer;
 }
 .stock-crypto .blue {
   color: blue;

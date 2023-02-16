@@ -6,6 +6,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+#arrow-swap:hover{
+    cursor: pointer;
+}
+
+
 .Logout{
     position: absolute;
     bottom: -70px;
@@ -26,6 +31,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    
 }
 
 body{
@@ -54,6 +60,9 @@ body{
                 padding-right: 20px;
                 margin-top: 30px;
                 font-family: 'Poppins',sans-serif;
+                a{
+                    text-decoration: none;
+                }
             }
         }
         .stock-graph{
@@ -90,6 +99,9 @@ body{
                             flex-direction: row;
                             justify-content: space-between;
                         }
+                        .stock-btc:hover{
+                            cursor: pointer;
+                        }
                         .stock-eth{
                             align-items: center;
                             background-color: black;
@@ -100,6 +112,9 @@ body{
                             padding-right: 10px;
                             flex-direction: row;
                             justify-content: space-between;
+                        }
+                        .stock-eth:hover{
+                            cursor: pointer;
                         }
                     }
                     .stock-icons1-graph{
@@ -115,7 +130,8 @@ body{
                             font-family: 'Poppins',sans-serif;
                             border: 0;
                         }
-                        button:active{
+                        button:hover{
+                            cursor: pointer;
                             background-color: white;
                             color: black;
                         }
@@ -140,6 +156,10 @@ body{
             display: flex;
             flex-direction: row;
             gap: 35px;
+            a{
+                border-radius: 7px;
+                padding: 2px;
+            }
             .SPECIAL{
                 background-color: black;
                 border-radius: 17px;
@@ -148,6 +168,9 @@ body{
             a{
                 text-decoration: none;
                 font-family: 'Poppins', sans-serif;  
+            }
+            a:hover{
+                background-color: black;
             }
         }
         .stock-interbalance{
@@ -344,6 +367,9 @@ body{
         padding-left: 14px;
         padding-right: 14px;
         font-family: 'Inter',sans-serif;
+    }
+    .btn-trade:hover{
+        cursor: pointer;
     }
     .blue{
         color: blue;
