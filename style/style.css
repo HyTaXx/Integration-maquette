@@ -461,13 +461,38 @@ nav {
     display: none;
   }
   body .section-main .section-content .recent-transactions2 .nav-transac {
-    flex-direction: column-reverse;
     gap: 20px;
   }
 }
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1070px) {
   body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort1, body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort2, body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort3, body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort4, body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort5 {
     display: none;
+  }
+}
+@media screen and (max-width: 970px) {
+  body .section-main .section-content .stock-middle .stock-balance {
+    flex-direction: column;
+  }
+  body .section-main .section-content .stock-middle .stock-balance .stock-directions {
+    margin-left: 0;
+  }
+  body .section-main .section-content .stock-middle .stock-balance .stock-interbalance {
+    text-align: center;
+  }
+  .stock-searchbar {
+    margin-right: 0;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 820px) {
+  body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-money {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .stock-crypto {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
