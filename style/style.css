@@ -56,10 +56,68 @@ body .stock-middle .stock-graph {
   margin-top: 20px;
 }
 body .stock-middle .stock-graph .graph {
+  padding: 20px;
   background-color: #303541;
   border-radius: 30px;
   width: 100%;
   height: 500px;
+}
+body .stock-middle .stock-graph .graph .stock-nav-graph {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+body .stock-middle .stock-graph .graph .stock-nav-graph .stock-money {
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 25px;
+}
+body .stock-middle .stock-graph .graph .stock-nav-graph .stock-money p {
+  opacity: 70%;
+}
+body .stock-middle .stock-graph .graph .stock-nav-graph .stock-money .stock-btc {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body .stock-middle .stock-graph .graph .stock-nav-graph .stock-money .stock-eth {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+body .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph button {
+  border-radius: 5px;
+  width: 42px;
+  height: 42px;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border: 0;
+}
+body .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph button:active {
+  background-color: white;
+  color: black;
 }
 body .stock-balance {
   margin-top: 70px;
