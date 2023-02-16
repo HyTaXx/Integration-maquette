@@ -30,7 +30,13 @@ body {
   flex-direction: column;
 }
 body .stock-middle {
-  width: 950px;
+  width: 58vw;
+}
+body .stock-middle .flex-search {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 body .stock-middle .stock-transactions {
   display: flex;
@@ -56,6 +62,7 @@ body .stock-middle .stock-graph .graph {
   height: 450px;
 }
 body .stock-balance {
+  margin-top: 70px;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -110,33 +117,6 @@ body .section-main nav {
   margin-top: 30px;
   align-items: center;
 }
-body .section-main nav .stock-searchbar {
-  width: 470px;
-  display: flex;
-  flex-direction: row;
-  border-radius: 15px;
-  background-color: white;
-  gap: 5px;
-}
-body .section-main nav .stock-searchbar input {
-  color: black;
-  border: 0;
-  outline: 0;
-  border-radius: 0 15px 15px 0;
-}
-body .section-main nav .stock-searchbar input::placeholder {
-  font-family: "Inter", sans-serif;
-  color: black;
-  font-size: 20px;
-  align-items: center;
-}
-body .section-main nav .stock-searchbar img {
-  align-items: center;
-  margin-left: 23px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 30px;
-}
 body .section-main .section-content {
   display: flex;
   flex-direction: row;
@@ -146,14 +126,13 @@ body .section-main .section-content {
 body .section-main .section-content .btn-left {
   width: 253px;
   margin-left: 85px;
-  margin-top: 70px;
 }
 body .section-main .section-content .btn-left .stock-dashboard {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 22px;
   margin-left: 30px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 body .section-main .section-content .btn-left .left-icon {
   align-items: center;
@@ -166,6 +145,7 @@ body .section-main .section-content .btn-left .left-icon p {
   font-family: "Poppins", sans-serif;
 }
 body .section-main .section-content .btn-left .btn-dashboard {
+  margin-top: 110px;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -194,8 +174,22 @@ body .section-main .section-content .btn-left .btn-dashboard:hover {
   gap: 20px;
 }
 
+.recent-transactions2 {
+  padding-right: 40px;
+}
 .recent-transactions2 h2 {
   font-family: "Poppins", sans-serif;
+}
+.recent-transactions2 .nav-transac {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.recent-transactions2 .nav-transac .bozo {
+  width: 37px;
+  height: 41px;
 }
 
 .stock-assets {
@@ -296,6 +290,39 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.stock-searchbar {
+  width: 470px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  background-color: white;
+  gap: 5px;
+  margin-right: 70px;
+}
+.stock-searchbar input {
+  color: black;
+  border: 0;
+  outline: 0;
+  border-radius: 0 15px 15px 0;
+}
+.stock-searchbar input::placeholder {
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-size: 20px;
+  align-items: center;
+}
+.stock-searchbar img {
+  align-items: center;
+  margin-left: 23px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.black {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
