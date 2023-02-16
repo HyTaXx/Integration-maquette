@@ -10,6 +10,14 @@
     cursor: pointer;
 }
 
+#img-profile:hover{
+    cursor: pointer;
+}
+
+body{
+    max-width: 100vw;
+}
+
 
 .Logout{
     position: absolute;
@@ -426,6 +434,10 @@ nav{
     color: black;
 }
 
+.burger2{
+    display: block !important;
+}
+
 
 
 @media screen and (max-width: 1500px) {
@@ -455,12 +467,54 @@ nav{
                     }
                 }
             }
-        }
-        
+        }  
     }
     
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1250px) {
+    #Hi{
+        display: none;
+    }
+    body{
+        .section-main{
+            .section-content{
+                .recent-transactions2{
+                    .Dashboard-right{
+                        display: none;
+                    }
+                    .nav-transac{
+                        flex-direction: column-reverse;
+                        gap: 20px;
+                    }
+                }
+            }
+        }  
+    }
+}
 
+@media screen and (max-width: 1015px) {
+    body{
+        .section-main{
+            .section-content{
+                .stock-middle{
+                    .stock-graph{
+                        .graph{
+                            .stock-nav-graph{
+                                .stock-icons1-graph{
+                                    #sort1,#sort2,#sort3,#sort4,#sort5{
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }  
+    }
+}
+
+@media screen and (max-width: 935px) {
+    
 }

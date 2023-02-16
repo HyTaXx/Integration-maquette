@@ -162,3 +162,10 @@ btnleft.addEventListener("click",()=>{
     stockdashboard.classList.toggle("burger")
     text.classList.toggle("show")
 })
+
+let imgprofile = document.getElementById("img-profile")
+let dashright = document.querySelector(".Dashboard-right")
+
+imgprofile.addEventListener("click",()=>{
+    dashright.classList.toggle("burger2")
+})
