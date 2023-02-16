@@ -188,7 +188,7 @@ body .section-main .section-content .btn-left .btn-dashboard:hover {
 }
 
 .flex-transactions {
-  margin-top: 40px;
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -199,7 +199,14 @@ body .section-main .section-content .btn-left .btn-dashboard:hover {
 }
 
 .stock-assets {
-  margin-top: 40px;
+  margin-top: 15px;
+  width: 100%;
+}
+.stock-assets .sous-stock-assets {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .text-row {

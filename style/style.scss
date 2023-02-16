@@ -191,7 +191,7 @@ body{
     }
 }
 .flex-transactions{
-    margin-top: 40px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -204,7 +204,14 @@ body{
 }
 
 .stock-assets{
-    margin-top: 40px;
+    margin-top: 15px;
+    width: 100%;
+    .sous-stock-assets{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 .text-row{
