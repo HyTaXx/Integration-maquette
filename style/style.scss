@@ -8,8 +8,8 @@
 
 .Logout{
     position: absolute;
-    bottom: 20px;
-    left: 70px;
+    bottom: -140px;
+    left: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,7 +33,7 @@ body{
     display: flex;
     flex-direction: column;
     .stock-middle{
-        width: 58vw;
+        width: 100vw;
         .flex-search{
             align-items: baseline;
             display: flex;
@@ -43,7 +43,7 @@ body{
         .stock-transactions{
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 18px;
             
             .stock-text-transactions{
                 display: flex;
@@ -61,7 +61,7 @@ body{
                 background-color: #303541;
                 border-radius: 30px;
                 width: 100%;
-                height: 450px;
+                height: 500px;
             }
         }
     }
@@ -109,6 +109,11 @@ body{
         }
         .Text-balance1{
             font-family: 'Poppins', sans-serif;
+            opacity: 80%;
+        }
+        .Text-balance2{
+            font-family: 'Poppins', sans-serif;
+            opacity: 70%;
         }
     }
     .section-main{
@@ -135,6 +140,7 @@ body{
                     gap: 22px;
                     margin-left: 30px;
                     margin-top: 50px;
+                    opacity: 80%;
                 }
                 .left-icon{
                     align-items: center;
@@ -151,6 +157,7 @@ body{
                     display: flex;
                     flex-direction: row;
                     width: 100%;
+                    border: black;
                     background:linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
                     border-radius: 17px;
                     padding-left: 29px;
@@ -180,6 +187,7 @@ body{
 }
 
 .recent-transactions2{
+    min-width: 380px;
     padding-right: 40px;
     h2{
         font-family: 'Poppins',sans-serif;
@@ -204,7 +212,7 @@ body{
         margin-top: 15px;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
     }
 }
 
