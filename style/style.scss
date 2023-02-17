@@ -479,23 +479,6 @@ nav{
     body{
         .section-main{
             .section-content{
-                .recent-transactions2{
-                    .Dashboard-right{
-                        display: none;
-                    }
-                    .nav-transac{
-                        gap: 20px;
-                    }
-                }
-            }
-        }  
-    }
-}
-
-@media screen and (max-width: 1070px) {
-    body{
-        .section-main{
-            .section-content{
                 .stock-middle{
                     .stock-graph{
                         .graph{
@@ -509,9 +492,34 @@ nav{
                         }
                     }
                 }
+                .recent-transactions2{
+                    .Dashboard-right{
+                        display: none;
+                    }
+                    .nav-transac{
+                        gap: 20px;
+                    }
+                }
             }
         }  
     }
+}
+
+@media screen and (max-width: 1150px) {
+    body{
+        .section-main{
+            .section-content{
+                .stock-middle{
+                    .stock-balance{
+                        .stock-directions{
+                            flex-wrap: wrap !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 @media screen and (max-width: 970px) {

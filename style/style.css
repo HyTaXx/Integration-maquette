@@ -332,7 +332,8 @@ body .section-main .section-content .btn-left .btn-dashboard:hover {
 }
 .stock-transactions2 img {
   aspect-ratio: 1/1;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .stock-transactions2 .blue {
   color: blue;
@@ -353,7 +354,8 @@ body .section-main .section-content .btn-left .btn-dashboard:hover {
   background-color: #20232B;
   opacity: 70%;
   padding: 10px;
-  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
   border-radius: 30px;
   width: 100%;
   display: flex;
@@ -407,6 +409,12 @@ nav {
   outline: 0;
   border-radius: 0 15px 15px 0;
 }
+.stock-searchbar input::-moz-placeholder {
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-size: 20px;
+  align-items: center;
+}
 .stock-searchbar input::placeholder {
   font-family: "Inter", sans-serif;
   color: black;
@@ -457,6 +465,9 @@ nav {
   #Hi {
     display: none;
   }
+  body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort1, body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort2, body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort3, body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort4, body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort5 {
+    display: none;
+  }
   body .section-main .section-content .recent-transactions2 .Dashboard-right {
     display: none;
   }
@@ -464,9 +475,9 @@ nav {
     gap: 20px;
   }
 }
-@media screen and (max-width: 1070px) {
-  body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort1, body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort2, body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort3, body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort4, body .section-main .section-content .stock-middle .stock-graph .graph .stock-nav-graph .stock-icons1-graph #sort5 {
-    display: none;
+@media screen and (max-width: 1150px) {
+  body .section-main .section-content .stock-middle .stock-balance .stock-directions {
+    flex-wrap: wrap !important;
   }
 }
 @media screen and (max-width: 970px) {
@@ -494,6 +505,4 @@ nav {
     display: flex;
     flex-wrap: wrap;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
