@@ -169,3 +169,7 @@ let dashright = document.querySelector(".Dashboard-right")
 imgprofile.addEventListener("click",()=>{
     dashright.classList.toggle("burger2")
 })
+
+if ($(window).width() < 960) {
+    alert('Less than 960');
+ }
