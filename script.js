@@ -170,6 +170,56 @@ imgprofile.addEventListener("click",()=>{
     dashright.classList.toggle("burger2")
 })
 
-if ($(window).width() < 960) {
-    alert('Less than 960');
- }
+/// graph
+
+let graph = document.getElementById("canva").getContext('2d')
+
+new Chart(graph,{
+    type:'line',
+    data: {
+        labels: ['5Nov','6Nov','7Nov','8Nov','9Nov','10Nov','11Nov','12Nov','13Nov','14Nov','15Nov',],
+        datasets: [
+            {
+                label:'ETH',
+                data:[100,400,600,400,300,100,350,200,300,700,600],
+                borderColor: 'rgba(89, 39, 149, 1)',
+                backgroundColor:'transparent'
+            },
+            {
+                label:'BTC',
+                data:[null,200,500,650,650,500,350,550,500,650,600],
+                borderColor: 'rgba(77, 145, 165, 1)',
+                backgroundColor:'transparent'
+            },
+            {
+                label:'DOGE',
+                data:[null,null,null,null,0,200,550,300,100,650,null],
+                borderColor: 'rgba(77, 145, 200, 1)',
+                backgroundColor:'transparent'
+            }
+
+        ]
+    },
+    options: {
+        scales: {
+            y: {
+                ticks: {
+                    // Include a dollar sign in the ticks
+                    callback: function(value, index, ticks) {
+                        return '$' + value;
+                    }
+                }
+            }
+        },
+        legend: {
+            display: false
+        },
+        tooltips: {
+            callbacks: {
+              label: (item) => `${item.yLabel} GB`,
+            },
+          },
+    }
+})
+
+

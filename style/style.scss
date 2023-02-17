@@ -80,12 +80,12 @@ body{
                 background-color: #303541;
                 border-radius: 30px;
                 width: 100%;
-                height: 500px;
                 .stock-nav-graph{
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
                     gap: 10px;
+                    margin-bottom: 20px;
                     .stock-money{
                         font-family: 'Poppins',sans-serif;
                         align-items: center;
@@ -448,6 +448,14 @@ nav{
     body{
         .section-main{
             .section-content{
+                .recent-transactions2{
+                    .Dashboard-right{
+                        display: none;
+                    }
+                    .nav-transac{
+                        gap: 20px;
+                    }
+                }
                 #logo-main{
                     width: 100px;
                 }
@@ -491,14 +499,6 @@ nav{
                                 }
                             }
                         }
-                    }
-                }
-                .recent-transactions2{
-                    .Dashboard-right{
-                        display: none;
-                    }
-                    .nav-transac{
-                        gap: 20px;
                     }
                 }
             }
